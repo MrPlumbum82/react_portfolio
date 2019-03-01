@@ -31,6 +31,15 @@
     - [DONE] Update the copyright year of your OLD PORTFOLIO
     - Add a Favicon to your OLD PORTFOLIO
 
+  - Write Shallow Rendering Tests for each page (ENZYME!)
+  - DOCKER IT UP BABY! Deploy the current with page and get a CI/CD Process going! Run Tests tooooo!
+
+  - Deply the site (CI/CD)?
+
+  - Start making the 3 pages PRETTY!
+
   - Work Page (I'm Working OVA HERE!!!) (dummy page for now)
   - Rest Page (I'm SLEEPING OVA HERE!!!) (dummy page for now)
   - Play Page (Tiles, and put in your Java Applets, C++ Games, And Other Stuff!!!)
+
+  - Create a VERY BASIC LEVEL MAIN PAGE! PRETTY IT A LITTLE! JUST A LITTLE!!!
