@@ -1,4 +1,10 @@
 # My Portfolio (React+TypeScript Baby!)
+## Tools I'm using
+  - React
+  - TypeScript
+  - Yarn
+  - Docker
+
 ## Concept
   - 3 Directions/Panes (Rest(left), Work(down), Play(right))
     - Work (Think of this as your online resume, proffesional focus)
