@@ -34,7 +34,7 @@
   - Before you really start hacking with react+typescript setup the CI/CD process
     - [DONE] Get your current lame, normi portfolio working in a docker container in your VPS
     - [DONE] Update the copyright year of your OLD PORTFOLIO
-    - Add a Favicon to your OLD PORTFOLIO
+    - [WORKING ON IT] Add a Favicon to your OLD PORTFOLIO
 
   - Write Shallow Rendering Tests for each page (ENZYME!)
   - DOCKER IT UP BABY! Deploy the current with page and get a CI/CD Process going! Run Tests tooooo!
