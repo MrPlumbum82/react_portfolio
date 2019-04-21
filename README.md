@@ -2,7 +2,6 @@
 ## Tools I'm using
   - React
   - TypeScript
-  - Yarn
   - Docker
 
 ## Concept
