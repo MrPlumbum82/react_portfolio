@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  portoflio:
+    image: mrplum/react_portfolio:latest
+    container_name: react_portfolio
+    restart: always
+    networks:
+      - web
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.frontend.rule=Host: new.sadanmallhi.com"
+      - "traefik.ports=80"
+
+networks:
+  web:
+    external: true

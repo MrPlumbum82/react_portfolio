@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  portoflio:
+    container_name: react_portfolio
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
