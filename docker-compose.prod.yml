@@ -11,8 +11,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
-      - "traefik.frontend.rule=Host: new.sadanmallhi.com"
-      - "traefik.ports=80"
+      - "traefik.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com;PathPrefixStrip:/new;AddPrefix:/new"
+      - "traefik.ports=9001"
 
 networks:
   web:
