@@ -20,7 +20,10 @@ jobs:
     - stage: Build
       script: npm run build
 
-    - stage: Publish and Deploy
+    - stage: Publish
+      script: bash ./scripts/publish.sh
+
+    - stage: Deploy
       before_script:
         - sudo apt-get install -qq sshpass
-      script: bash ./scripts/publish-and-deploy.sh
+      script: bash ./scripts/deploy.sh
