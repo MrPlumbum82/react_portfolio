@@ -34,7 +34,7 @@ sshpass -p $VPS_PASSWORD scp -o stricthostkeychecking=no ./docker-compose.prod.y
 sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker-compose -f /opt/tmp/docker-compose-react-portfolio.yml down"
 
 # Run Docker Pull
-sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker pull mrplum/react-portfolio:latest"
+sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker pull mrplum/react_portfolio:latest"
 
 # Run Docker Compose Up
 sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker-compose -f /opt/tmp/docker-compose-react-portfolio.yml up -d"
