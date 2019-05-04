@@ -1,12 +1,12 @@
 # Stage 1 - npm build 
-FROM node:10 as build-deps
+FROM node:10 as build
 WORKDIR /app
-COPY . ./
-RUN npm install
-RUN npm build
+COPY . .
+RUN npm run install
+RUN npm run build
 
 # Stage 2 - prod image creation
-FROM nginx:1.12-alpine
-COPY --from=build-deps /app/build /usr/share/nginx/html
+FROM nginx:1.15-alpine
+COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 9001
 CMD ["nginx", "-g", "daemon off;"]
