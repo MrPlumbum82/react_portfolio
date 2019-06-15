@@ -16,20 +16,20 @@ const Play = (Props: Props) => {
       <Row>
         <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
           <Card
-            title="Default size card"
+            title="Conways Game of Life"
             style={{ width: 300 }}
           >
-            <p>One</p>
+            <p>Conways Game of Life</p>
           </Card>
 
         </Col>
 
         <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
           <Card
-            title="Default size card"
+            title="Forest Fire Simulator"
             style={{ width: 300 }}
           >
-            <p>Two</p>
+            <p>Forest Fire Simulator</p>
           </Card>
 
         </Col>
@@ -37,65 +37,60 @@ const Play = (Props: Props) => {
         <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
 
           <Card
-            title="Default size card"
+            title="Voroni Generator"
             style={{ width: 300 }}
           >
-            <p>Three</p>
+            <p>Voroni Generator</p>
           </Card>
 
         </Col>
       </Row>
-{/* 
-      <Row gutter={16}>
-        <Col className="gutter-row" span={6}>
-          <div className="gutter-box">
 
-            <Card
-              title="Default size card"
-              style={{ width: 300 }}
-            >
-              <p>One</p>
-            </Card>
+      <Row>
+        <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+          <Card
+            title="Frogs And Toads"
+            style={{ width: 300 }}
+          >
+            <p>Frogs And Toads</p>
+          </Card>
 
-          </div>
         </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="gutter-box">
 
-            <Card
-              title="Default size card"
-              style={{ width: 300 }}
-            >
-              <p>Two</p>
-            </Card>
+        <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+          <Card
+            title="Java Pong"
+            style={{ width: 300 }}
+          >
+            <p>Java Pong</p>
+          </Card>
 
-          </div>
         </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="gutter-box">
+      </Row>
 
-            <Card
-              title="Default size card"
-              style={{ width: 300 }}
-            >
-              <p>Three</p>
-            </Card>
+      <Row>
+        <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+          <Card
+            title="My Asteroids"
+            style={{ width: 300 }}
+          >
+            <p>My Asteroids</p>
+          </Card>
 
-          </div>
         </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="gutter-box">
 
-            <Card
-              title="Default size card"
-              style={{ width: 300 }}
-            >
-              <p>Four</p>
-            </Card>
+        <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+          <Card
+            title="My Racing"
+            style={{ width: 300 }}
+          >
+            <p>My Racing</p>
+          </Card>
 
-          </div>
         </Col>
-      </Row> */}
+
+      </Row>
+
     </div>
   );
 }

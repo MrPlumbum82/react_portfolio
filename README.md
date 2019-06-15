@@ -11,19 +11,27 @@
       - Tech Skills
       - Contact Info
     - Play (Links to fun projects)
-      - java-applets of your stuff
-        - conways game of life (java)
-        - forest fire simulator (java)
-        - face manipulator (java)
-        - voronoi generator (java)
-        - frogs and toads (java)
-        - pong (java)
+      - java-jars of your stuff
+        - conways game of life (java, downloadable jars)
+        - forest fire simulator (java, downloadable jars)
+        - voronoi generator (java, downloadable jars)
+        - frogs and toads (java, downloadable jars)
+        - pong (java, downloadable jars)
+        - face manipulator (java, downloadable jars) [I'm not too proud of this, lets not add this]
+      - c++ executables
         - my asteriods (c++ opengl downloadable)
         - my racing (c++ opengl downloadable)
-      - nes emulator (javascript)
-      - online multiplayer tetris (javascript, socket.io)
-      - tic tac toe on the blockchain (DApp)
-      - turtle sheild (electron app)
+      - js
+        - nes or gba emulator (javascript)
+        - online multiplayer tetris (javascript, socket.io)
+        - tic tac toe on the blockchain (DApp)
+        - turtle sheild (electron app)
+        - java pong
+        - endlessskrrskrr
+        - acidtripsimulator
+        - satoshinakamotosimulator
+      - hardware
+        - volume pressure sensor (arduino project)
     - Rest (Books, Games, Music, Travel)
       - Books (think of using api's for audible and other e-reading services (find some good ones and use them to read))
       - Games (steam api, battle.net api, league? others?)
