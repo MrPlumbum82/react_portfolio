@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Row, Col } from 'antd';
+import MyCard from '../../components/MyCard';
 
 interface Props {
   sceneChangeHander: (Function: number) => void
@@ -13,82 +14,36 @@ const Play = (Props: Props) => {
       <Button type="primary" onClick={() => Props.sceneChangeHander(1)}>Work</Button>
       <Button type="primary" onClick={() => Props.sceneChangeHander(3)}>Rest</Button>
 
-      <Row>
-        <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="Conways Game of Life"
-            style={{ width: 300 }}
-          >
-            <p>Conways Game of Life</p>
-          </Card>
-
+      <Row type="flex" justify="space-around">
+        <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }} >
+          <MyCard title="Conways Game of Life" content="Conways Game of Life"/>
         </Col>
-
         <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="Forest Fire Simulator"
-            style={{ width: 300 }}
-          >
-            <p>Forest Fire Simulator</p>
-          </Card>
-
+          <MyCard title="Forest Fire Simulator" content="Forest Fire Simulator" />
         </Col>
-
         <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-
-          <Card
-            title="Voroni Generator"
-            style={{ width: 300 }}
-          >
-            <p>Voroni Generator</p>
-          </Card>
-
+          <MyCard title="Voroni Generator" content="Voroni Generator" />
         </Col>
       </Row>
 
-      <Row>
+      <Row type="flex" justify="space-around">
+      {/* <Row> */}
         <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="Frogs And Toads"
-            style={{ width: 300 }}
-          >
-            <p>Frogs And Toads</p>
-          </Card>
-
+          <MyCard title="Frogs And Toads" content="Frogs And Toads" />
         </Col>
-
         <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="Java Pong"
-            style={{ width: 300 }}
-          >
-            <p>Java Pong</p>
-          </Card>
-
+          <MyCard title="Java Pong" content="Java Pong" />
         </Col>
       </Row>
 
-      <Row>
+      <Row type="flex" justify="space-around">
+      {/* <Row> */}
         <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="My Asteroids"
-            style={{ width: 300 }}
-          >
-            <p>My Asteroids</p>
-          </Card>
-
+          <MyCard title="My Asteroids" content="My Asteroids" />
         </Col>
-
         <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-          <Card
-            title="My Racing"
-            style={{ width: 300 }}
-          >
-            <p>My Racing</p>
-          </Card>
-
+          <MyCard title="My Racing" content="My Racing" />
         </Col>
-
       </Row>
 
     </div>

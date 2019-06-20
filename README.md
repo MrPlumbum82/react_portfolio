@@ -42,17 +42,20 @@
   - Before you really start hacking with react+typescript setup the CI/CD process
     - [DONE] Get your current lame, normi portfolio working in a docker container in your VPS
     - [DONE] Update the copyright year of your OLD PORTFOLIO
-    - [WORKING ON IT] Add a Favicon to your OLD PORTFOLIO
+    - [WORKING-ON-IT] Add a Favicon to your OLD PORTFOLIO
 
   - Write Shallow Rendering Tests for each page (ENZYME!)
-  - DOCKER IT UP BABY! Deploy the current with page and get a CI/CD Process going! Run Tests tooooo!
+  - [DONE] DOCKER IT UP BABY! Deploy the current with page and get a CI/CD Process going! Run Tests tooooo!
 
-  - Deply the site (CI/CD)?
+  - [DONE] Deply the site (CI/CD)?
+
+  - [DONE] Create 3 base pages (Create a VERY BASIC LEVEL MAIN PAGE! PRETTY IT A LITTLE! JUST A LITTLE!!!)
+    - Work Page (I'm Working OVA HERE!!!) (dummy page for now)
+    - Rest Page (I'm SLEEPING OVA HERE!!!) (dummy page for now)
+    - [WORKING-ON-IT] Play Page (Tiles, and put in your Java Applets, C++ Games, And Other Stuff!!!)
+      - Animate the cards, make them look pretty (mouse over animate)
+      - Make the cards responsive (flex)
+      - Popup when clicked
+      - Make popup pretty
 
   - Start making the 3 pages PRETTY!
-
-  - Work Page (I'm Working OVA HERE!!!) (dummy page for now)
-  - Rest Page (I'm SLEEPING OVA HERE!!!) (dummy page for now)
-  - Play Page (Tiles, and put in your Java Applets, C++ Games, And Other Stuff!!!)
-
-  - Create a VERY BASIC LEVEL MAIN PAGE! PRETTY IT A LITTLE! JUST A LITTLE!!!
